@@ -10,12 +10,12 @@ console.log('------------------------------------------------')
 let { spawn } = require('child_process')
 let path = require('path')
 const CFonts  = require('cfonts')
-CFonts.say('WHATSAPP BOT', {
+CFonts.say('MeguminBOT', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']
 })
-CFonts.say('\'termux-whatsapp-bot\' By @NazwaS', {
+CFonts.say('\'termux-whatsapp-bot\' Ig: @mhmdfjralfarizi_', {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']
@@ -44,4 +44,4 @@ function start() {
 
 start()
 console.log('------------------------------------------------')
-lolcatjs.fromString('[DEV] NAZWAS')
+lolcatjs.fromString('[DEV] MeguminBOT')
