@@ -104,13 +104,13 @@ const { limit } = require('./database/menu/limit')
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
             + 'FN:Fajar Alfarizi\n' // full name
-            + 'ORG:𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃;\n' // the organization of the contact
+            + 'ORG:OWNER 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃;\n' // the organization of the contact
             + 'TEL;type=CELL;type=VOICE;waid=6282252958505:+62 822-5295-8505\n' // WhatsApp ID + phone number
             + 'END:VCARD'
-prefix = !
+prefix = "!"
 blocked = []
 limitawal = userDefaultLimit
-cr = '*Verified*'
+cr = '*𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃 WhatsApp*'
 memberlimit = memberLimitss
 
 // Functions
