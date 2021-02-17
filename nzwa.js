@@ -103,11 +103,11 @@ const { limit } = require('./database/menu/limit')
 // Load Vcard Contact
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN:NazwaðŸ–¤\n' // full name
-            + 'ORG:Owner Bot;\n' // the organization of the contact
-            + 'TEL;type=CELL;type=VOICE;waid=12542123926:+1 (254) 212-3926\n' // WhatsApp ID + phone number
+            + 'FN:Fajar Alfarizi\n' // full name
+            + 'ORG:𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃;\n' // the organization of the contact
+            + 'TEL;type=CELL;type=VOICE;waid=6281333782061:+62 813-3378-2061\n' // WhatsApp ID + phone number
             + 'END:VCARD'
-prefix = botPrefix
+prefix = !
 blocked = []
 limitawal = userDefaultLimit
 cr = '*Verified*'
@@ -311,7 +311,7 @@ async function starts() {
 		start('2', 'Connecting...')
 	})
 	nzwa.on('open', () => {
-		success('2', '[BOT] BOT is now online!')
+		success('2', '[𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃] BOT is now online!')
 	})
 	await nzwa.connect({timeoutMs: 30*1000})
         fs.writeFileSync('./Nazwa.json', JSON.stringify(nzwa.base64EncodedAuthInfo(), null, '\t'))
